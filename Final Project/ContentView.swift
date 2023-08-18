@@ -13,9 +13,9 @@ struct ContentView: View {
             VStack(spacing: 55){
                 
                 Spacer()
-                Text("Mapify ")
+                Text("Mapify")
                     
-                   
+
                     .font(.largeTitle)
                     .fontWeight(.ultraLight)
                     .foregroundColor(Color.black)
