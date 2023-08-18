@@ -11,6 +11,9 @@
 		F02DE3FE2A8F1787003BD98A /* North Korea.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02DE3FD2A8F1787003BD98A /* North Korea.swift */; };
 		F02DE4002A8F179F003BD98A /* Hawaii.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02DE3FF2A8F179F003BD98A /* Hawaii.swift */; };
 		F02DE4022A8F17EB003BD98A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02DE4012A8F17EB003BD98A /* ContentView.swift */; };
+		F02DE4062A8FAFAD003BD98A /* Q1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02DE4052A8FAFAD003BD98A /* Q1.swift */; };
+		F02DE4082A8FB0C5003BD98A /* question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02DE4072A8FB0C5003BD98A /* question2.swift */; };
+		F02DE40A2A8FB140003BD98A /* question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02DE4092A8FB140003BD98A /* question3.swift */; };
 		F0D6BFD82A8BE5B800EC4BF9 /* Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D6BFD72A8BE5B800EC4BF9 /* Final_ProjectApp.swift */; };
 		F0D6BFDC2A8BE5BA00EC4BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D6BFDB2A8BE5BA00EC4BF9 /* Assets.xcassets */; };
 		F0D6BFDF2A8BE5BA00EC4BF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D6BFDE2A8BE5BA00EC4BF9 /* Preview Assets.xcassets */; };
@@ -21,6 +24,9 @@
 		F02DE3FD2A8F1787003BD98A /* North Korea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "North Korea.swift"; sourceTree = "<group>"; };
 		F02DE3FF2A8F179F003BD98A /* Hawaii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hawaii.swift; sourceTree = "<group>"; };
 		F02DE4012A8F17EB003BD98A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F02DE4052A8FAFAD003BD98A /* Q1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1.swift; sourceTree = "<group>"; };
+		F02DE4072A8FB0C5003BD98A /* question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question2.swift; sourceTree = "<group>"; };
+		F02DE4092A8FB140003BD98A /* question3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question3.swift; sourceTree = "<group>"; };
 		F0D6BFD42A8BE5B800EC4BF9 /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D6BFD72A8BE5B800EC4BF9 /* Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectApp.swift; sourceTree = "<group>"; };
 		F0D6BFDB2A8BE5BA00EC4BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 				F02DE4012A8F17EB003BD98A /* ContentView.swift */,
 				F02DE3FF2A8F179F003BD98A /* Hawaii.swift */,
 				F02DE3FD2A8F1787003BD98A /* North Korea.swift */,
+				F02DE4052A8FAFAD003BD98A /* Q1.swift */,
+				F02DE4072A8FB0C5003BD98A /* question2.swift */,
+				F02DE4092A8FB140003BD98A /* question3.swift */,
 				F02DE3FB2A8F176E003BD98A /* Haiti.swift */,
 				F0D6BFDB2A8BE5BA00EC4BF9 /* Assets.xcassets */,
 				F0D6BFDD2A8BE5BA00EC4BF9 /* Preview Content */,
@@ -149,8 +158,11 @@
 				F02DE3FC2A8F176E003BD98A /* Haiti.swift in Sources */,
 				F02DE3FE2A8F1787003BD98A /* North Korea.swift in Sources */,
 				F02DE4022A8F17EB003BD98A /* ContentView.swift in Sources */,
+				F02DE4082A8FB0C5003BD98A /* question2.swift in Sources */,
 				F0D6BFD82A8BE5B800EC4BF9 /* Final_ProjectApp.swift in Sources */,
+				F02DE40A2A8FB140003BD98A /* question3.swift in Sources */,
 				F02DE4002A8F179F003BD98A /* Hawaii.swift in Sources */,
+				F02DE4062A8FAFAD003BD98A /* Q1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

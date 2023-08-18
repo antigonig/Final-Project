@@ -1,15 +1,5 @@
 import SwiftUI
-struct SheetView: View {
-    @Environment(\.dismiss) var dismiss
-    var body: some View {
-        Button("Press to dismiss") {
-            dismiss()
-        }
-        .font(.title)
-        .padding()
-        .background(.black)
-    }
-}
+
 struct ContentView: View {
     
     @State private var showingSheet = false
@@ -82,20 +72,16 @@ struct ContentView: View {
                 }
                 
                
-                
-                Button("Test Your Knowledge"){
-                    showingSheet.toggle()
-                }
-                .foregroundColor(.black)
-                .padding(.all, 8.0)
-                .background(Color.white)
-                .cornerRadius(15)
-                
-                .overlay( RoundedRectangle(cornerRadius: 15) .stroke(Color(red: 195/255,green: 158/255, blue: 158/255), lineWidth:3.5))
             
-                .sheet(isPresented: $showingSheet){
-                    SheetView()
-                }
+                    
+                
+                NavigationLink(destination: Q1()) {
+                        Text("Test Your Knowledge")
+                    }
+                    .padding()
+                    .font(.title2)
+                    .buttonStyle(.borderedProminent)
+                    .tint(.black)
                 
                 Spacer()
                 
